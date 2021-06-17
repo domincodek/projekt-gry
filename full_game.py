@@ -205,7 +205,6 @@ class MyGame(arcade.View):
         self.game_over = arcade.load_sound(":resources:sounds/gameover1.wav")
 
     def setup(self):
-        """ Set up the game here. Call this function to restart the game. """
 
         self.view_bottom = 0
         self.view_left = 0
